@@ -1,0 +1,84 @@
+
+.desktop-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+.desktop-grid {
+  display: grid;
+  height: 90vh;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.desktop1 {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  flex-direction: row;
+  padding: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.hello-leora {
+  margin: 0;
+  height: 6vh;
+  width: 225px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+
+.welcome-to-our {
+  position: relative;
+  display: inline-block;
+  align-self: stretch;
+  height: 105px;
+  font-size: 14px;
+  mix-blend-mode: normal;
+}
+
+.hello-leora-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: rgba(0, 0, 0, 0.42);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  padding: 20px;
+}
+
+.hello-leora {
+  margin: 0;
+  width: 225px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  padding: 10px;
+}
+
+.welcome-to-our {
+  position: relative;
+  display: inline-block;
+  align-self: stretch;
+  height: 95px;
+  font-size: 14px;
+  mix-blend-mode: normal;
+  padding: 10px;
+}
