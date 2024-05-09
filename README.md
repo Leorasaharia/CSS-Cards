@@ -1,0 +1,1 @@
+so this is just a basic project in which im working on to improve my css skills for the toime being using figma and react.js 
